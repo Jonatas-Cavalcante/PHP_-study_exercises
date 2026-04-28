@@ -1,13 +1,15 @@
 <?php
 
-
-$car_caracteristics = [
-    "color" => "red",
-    "brand" => "Fiat",
-    "model" => "Uno",
-    "year" => 2010,
-    "fuel" => "gasoline",
-    "doors" => 4
+$people_caracteristics = [
+    "color" => "white",
+    "size" => "big",
+    "years_old" => 30,
+    "hight" => 1.80,
+    "hair_color" => "black"
 ];
-echo "The color this car is " . $car_caracteristics["color"] . "<br>";
-echo "The car uses " . $car_caracteristics["fuel"];
+
+if ($people_caracteristics['years_old'] >= 18) {
+    echo "You are an adult";
+} else {
+    echo "You are a minor";
+}
