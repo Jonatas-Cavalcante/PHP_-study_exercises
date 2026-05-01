@@ -1,24 +1,15 @@
 <?php
 
-$peso1 = 90.5;
-$peso2 = 69.9;
+$imail = "test1@example.com";
+$senha = 123456;
 
 
-if($peso1 <= 80){
-    echo "Peso dentro do Limite";
+if ($imail == "test1@example.com.") {
+    if ($senha == 123456) {
+        echo "Login bem-sucedido!";
+    } else {
+        echo "Senha incorreta.";
+    }
+} else {
+    echo "Email não encontrado.";
 }
-else{
-    echo "Está pesado demais";
-}
-
-echo "<br>";
-
-if($peso2 <= 80){
-    echo "Peso dentro do Limite";
-}
-else{
-    echo "Está pesado demais";
-}
-
-
-?>
