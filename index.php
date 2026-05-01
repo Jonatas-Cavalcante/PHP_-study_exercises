@@ -1,18 +1,20 @@
 <?php
 
-function contador() {
-    static $contandor = 0;
-    $contandor++;
-    return "Contador: $contandor <br>";
+$idade1 = 17;
+$idade2 = 21;
+
+$maioridade = 18;
+
+if ($idade1 >= $maioridade) {
+    echo "A pessoa 1 é maior de idade.";
+} else {
+    echo "A pessoa 1 é menor de idade.";
 }
 
+echo "<br>";
 
-echo contador();
-echo contador();
-echo contador();
-echo contador();
-echo contador();
-echo contador();
-echo contador();
-echo contador();
-echo contador();
+if ($idade2 >= $maioridade) {
+    echo "A pessoa 2 é maior de idade.";
+} else {
+    echo "A pessoa 2 é menor de idade.";
+}
