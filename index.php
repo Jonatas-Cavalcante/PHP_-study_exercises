@@ -1,15 +1,13 @@
 <?php
 
-$imail = "test1@example.com";
-$senha = 123456;
+$velocity = 120;
 
-
-if ($imail == "test1@example.com.") {
-    if ($senha == 123456) {
-        echo "Login bem-sucedido!";
-    } else {
-        echo "Senha incorreta.";
-    }
-} else {
-    echo "Email não encontrado.";
+if ($velocity < 40){
+    echo "The velocity is correct";
+}
+elseif ($velocity == 40){
+    echo "The velocity is dangerous";
+}
+elseif ($velocity > 40){
+    echo "you will receive a fine";
 }
