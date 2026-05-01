@@ -1,20 +1,30 @@
 <?php
 
-$idade1 = 17;
-$idade2 = 21;
+$v1 = "Hello World";
+$v2 = 10;
+$v3 = true;
 
-$maioridade = 18;
-
-if ($idade1 >= $maioridade) {
-    echo "A pessoa 1 é maior de idade.";
-} else {
-    echo "A pessoa 1 é menor de idade.";
+if (is_int($v1)) {
+    echo "v1 is a integer\n";
+}
+else {
+    echo "v1 is not a integer\n";
 }
 
 echo "<br>";
 
-if ($idade2 >= $maioridade) {
-    echo "A pessoa 2 é maior de idade.";
-} else {
-    echo "A pessoa 2 é menor de idade.";
+if (is_int($v2)) {
+    echo "v2 is a integer\n";
+}
+else {
+    echo "v2 is not a integer\n";
+}
+
+echo "<br>";
+
+if (is_int($v3)) {
+    echo "v3 is a interger\n";
+}
+else {
+    echo "v3 is not a integer\n";
 }
