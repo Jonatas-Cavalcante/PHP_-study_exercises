@@ -1,15 +1,9 @@
 <?php
 
-$velocity = 1;
+$lista = ["Maça", "Pera", "Uva", "Morango"];
 
-switch($velocity){
-    case 0:
-        echo "O objeto está parado.";
-        break;
-    case 1:
-        echo "O objeto está se movendo lentamente.";
-        break;
-    case 2:
-        echo "O objeto está se movendo a uma velocidade média.";
 
-}
+$contagem = implode(" , ", $lista);
+
+echo($contagem);
+
