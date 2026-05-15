@@ -1,12 +1,10 @@
 <?php
 
-function Multiplicador(){
-    $num1 = 10;
-    $num2 = 15;
-    $num3 = 20;
+function juntarnomes(){
+    $nome = "Jonatas";
+    $sobrenome = "Souza";
 
-    $result = $num1 * $num2 * $num3;
-    echo "Resultado: " . $result;  
+    echo ("Olá " . $nome . " " . $sobrenome);
 }
 
-Multiplicador();
+juntarnomes();
